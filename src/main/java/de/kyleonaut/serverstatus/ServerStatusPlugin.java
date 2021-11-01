@@ -25,7 +25,7 @@ public class ServerStatusPlugin extends JavaPlugin {
         }
         final DiscordWebhook discordWebhook = new DiscordWebhook(this.url);
         discordWebhook.setUsername("ServerStatus");
-        discordWebhook.setAvatarUrl("https://static-cdn.jtvnw.net/jtv_user_pictures/fb81cae2-1aa2-44ba-a818-ecaa535ba9bd-profile_image-150x150.png");
+        discordWebhook.setAvatarUrl("https://www.radio.de/images/broadcasts/64/e5/122912/1/c300.png");
         discordWebhook.setContent("Server " + this.server + " started successfully :green_circle:");
         discordWebhook.execute();
     }
@@ -38,7 +38,7 @@ public class ServerStatusPlugin extends JavaPlugin {
         }
         final DiscordWebhook discordWebhook = new DiscordWebhook(this.url);
         discordWebhook.setUsername("ServerStatus");
-        discordWebhook.setAvatarUrl("https://pic.onlinewebfonts.com/svg/img_569193.png");
+        discordWebhook.setAvatarUrl("https://www.radio.de/images/broadcasts/64/e5/122912/1/c300.png");
         discordWebhook.setContent("Server " + this.server + " stopped :red_circle:");
         discordWebhook.execute();
     }

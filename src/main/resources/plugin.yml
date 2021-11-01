@@ -1,0 +1,4 @@
+name: ServerStatus
+main: de.kyleonaut.serverstatus.ServerStatusPlugin
+version: 1.0.0
+author: kyleonaut
